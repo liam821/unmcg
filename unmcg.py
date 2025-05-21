@@ -17,6 +17,8 @@ Thread-safe, multiple instances, and multiple host safe
         #
         # example number 2405301200001342768L
 
+Python 2 and Jython 2 compatible
+
 '''
 
 import socket, sys, threading, traceback, time, uuid, datetime, random, struct, Queue, platform, json, os
