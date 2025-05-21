@@ -17,7 +17,7 @@ Thread-safe, multiple instances, and multiple host safe, to generate an ID numbe
         #
         # example number 2405301200001342768L
 
-        # liam@gibson src % python2
+        # $ python2
         # Python 2.7.18 (default, Oct 31 2023, 11:12:53) 
         # [GCC Apple LLVM 15.0.0 (clang-1500.0.40.1)] on darwin
         # Type "help", "copyright", "credits" or "license" for more information.
