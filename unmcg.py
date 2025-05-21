@@ -91,8 +91,6 @@ class unmcg:
                 packet = DatagramPacket(buffer, len(buffer))
                 sock.receive(packet)
                 data = packet.getData()
-                if DEBUG:
-                    print(f"Received message: {data.decode('utf-8')}")
 
                 data = data.tostring()
                 msg = data.rstrip('\x00')
